@@ -2,11 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:getouthere/generated/l10n.dart';
 
-void main() {
-
-  runApp(const MainApp());
-
-}
+void main() => runApp(const MainApp());
 
 class MainApp extends StatelessWidget {
 
@@ -18,7 +14,6 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
 
       debugShowCheckedModeBanner: false,
-
       localizationsDelegates: const [
 
         S.delegate,
